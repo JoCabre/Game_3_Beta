@@ -226,9 +226,9 @@ bool check_Crash(byte *cX, byte *cY, byte *hX, byte *hY, bool *impact)
 //The Main Function:
 void main(void)
 {
-   char i;	// actor index
-   char oam_id;	// sprite ID
-   char pad;    // Controller Index
+   char i;	 // actor index
+   char oam_id;	 // sprite ID
+   char pad;     // Controller Index
    char str[32]; //This is for checking elements. 
   
    bool isClear; //A bool to confirm wether or not the player reached the goal.
